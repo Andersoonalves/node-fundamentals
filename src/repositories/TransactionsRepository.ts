@@ -20,8 +20,6 @@ interface AllTransactionsDTO {
 class TransactionsRepository {
   private transactions: Transaction[];
 
-  private balance: Balance | undefined;
-
   constructor() {
     this.transactions = [];
   }
